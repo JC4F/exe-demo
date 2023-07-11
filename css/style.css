@@ -1428,6 +1428,13 @@ form.list .item-input-wrap textarea {
   border-radius: 0 0 20% 0;
 }
 
+.travel-details .des-pic img {
+  width: 100%;
+  height: calc(100vw - 40px);
+  object-fit: cover;
+  border-radius: 0 0 20% 0;
+}
+
 .travel-details .image-header .favorite-icon {
   position: absolute;
   top: 20px;
@@ -1993,3 +2000,93 @@ form.list .item-input-wrap textarea {
 }
 
 /* ========== END PAGES ========== */
+
+/* Service */
+.list-service {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 12px;
+}
+
+.list-service .service-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f4f6f6;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.list-service .service-item .service-image {
+  padding: 6px;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  background-color: #f5e3c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-service .service-item .service-image img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.list-service .service-item .serice-info {
+  margin-left: 10px;
+}
+
+.list-service .service-item .serice-info h4 {
+  font-size: 16px;
+}
+
+.list-service .service-item .serice-info span {
+  font-size: 13px;
+}
+
+.list-service .service-item .service-quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.list-service .service-item .service-quantity .text-editor {
+  margin: 0;
+}
+
+.list-service .service-item .service-quantity .text-editor-content {
+  height: 26px;
+  min-width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 4px;
+  line-height: 18px;
+}
+
+.service-icon-wrapper {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border: none;
+  margin: 0;
+  width: 29px;
+  height: 29px;
+}
+
+.service-icon-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-button {
+  margin: 0;
+}
