@@ -119,4 +119,9 @@ var routes = [
     path: "/place-details/",
     url: "./place-details.html",
   },
+
+  {
+    path: "/payment/",
+    url: "./payment.html",
+  },
 ];
