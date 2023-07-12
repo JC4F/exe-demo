@@ -2090,3 +2090,27 @@ form.list .item-input-wrap textarea {
 .custom-button {
   margin: 0;
 }
+
+.list-service .rate-destination {
+  margin-bottom: 0;
+}
+
+/* list-srevice */
+.center-title {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  white-space: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.center-title span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.list-service .swiper-container {
+  margin-bottom: 14px;
+}
