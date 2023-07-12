@@ -109,4 +109,9 @@ var routes = [
     path: "/list-service/",
     url: "./list-service.html",
   },
+
+  {
+    path: "/service-details/",
+    url: "./service-details.html",
+  },
 ];
