@@ -902,6 +902,7 @@ form.list .item-input-wrap textarea {
   position: absolute;
   left: 20px;
   bottom: 50px;
+  width: calc(100% - 40px);
 }
 
 .popular-destination .swiper-slide .caption h4 {
@@ -931,6 +932,9 @@ form.list .item-input-wrap textarea {
 .rate-destination {
   margin-top: 3px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .rate-destination ul li {
@@ -2113,4 +2117,15 @@ form.list .item-input-wrap textarea {
 
 .list-service .swiper-container {
   margin-bottom: 14px;
+}
+
+.service-quantity {
+  color: white;
+}
+
+.travel-photo img {
+  width: 100%;
+  border-radius: 12px;
+  height: calc(100vw - 40px) !important;
+  object-fit: cover;
 }
