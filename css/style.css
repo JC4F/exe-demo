@@ -935,6 +935,7 @@ form.list .item-input-wrap textarea {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  flex-direction: column;
 }
 
 .rate-destination ul li {
@@ -2121,6 +2122,7 @@ form.list .item-input-wrap textarea {
 
 .service-quantity {
   color: white;
+  font-size: 12px;
 }
 
 .travel-photo img {
