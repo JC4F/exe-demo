@@ -5,6 +5,7 @@ var routes = [
     Url: "./index.html",
   },
 
+
   {
     path: "/travel-details/",
     url: "./travel-details.html",
@@ -123,5 +124,10 @@ var routes = [
   {
     path: "/payment/",
     url: "./payment.html",
+  },
+
+  {
+    path: "/payment-success/",
+    url: "./payment-success.html",
   },
 ];
