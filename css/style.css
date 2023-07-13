@@ -2135,3 +2135,7 @@ form.list .item-input-wrap textarea {
 .explore-too {
   margin-bottom: 20px;
 }
+
+.service-details-other .caption h4 {
+  font-size: 14px;
+}
