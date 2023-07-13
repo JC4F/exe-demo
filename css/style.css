@@ -1418,7 +1418,7 @@ form.list .item-input-wrap textarea {
 
 /* travel details */
 .travel-details {
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .travel-details .image-header {
@@ -2130,4 +2130,8 @@ form.list .item-input-wrap textarea {
   border-radius: 12px;
   height: calc(100vw - 40px) !important;
   object-fit: cover;
+}
+
+.explore-too {
+  margin-bottom: 20px;
 }
